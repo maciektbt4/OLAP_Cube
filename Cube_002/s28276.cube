@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e23fc28d-68da-4c6a-835d-454cdabf961b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="961aa5c5-dd7c-4e41-b27b-64a448b2ed64" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>s28276</ID>
   <Name>s28276</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,150 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4818" scrolltop="14" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="16955" y="15579" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dane personalne" left="10969" top="6276" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3003" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bb0b00001c0b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_Personal_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dane geograficzne" left="5176" top="11520" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3638" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000360e00001c0b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_Geography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Branża" left="20" top="6964" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_Industrie" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dane ekonomiczne" left="5235" top="0" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3519" height="3876" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bf0d0000240f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_Economic_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Miliarderzy" left="5420" top="6276" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3149" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004d0c00001c0b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_F_Billionaires" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8269" top="7299" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__perso__7F2BE32F]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10969" y="7698" />
+              <point x="8569" y="7698" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6596" top="8820" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__geogr__01142BA1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6995" y="11520" />
+              <point x="6995" y="10320" />
+              <point x="6994" y="10320" />
+              <point x="6994" y="9120" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="7299" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__indus__7E37BEF6]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="13" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="7698" />
+              <point x="5420" y="7698" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6595" top="3377" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__econo__00200768]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6994" y="3876" />
+              <point x="6994" y="6276" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +165,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-4818</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>14</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -37,99 +181,99 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>100</Value>
+      <Value>86</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="45347982-c249-4697-9810-441025662827">
+    <Dimension dwd:design-time-name="68bbd778-1811-44f5-895b-0cf609f49bd0">
       <ID>Dane Personalne</ID>
       <Name>Dane Personalne</Name>
       <DimensionID>Dane Personalne</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d2f5e1a5-5ed5-4906-9367-de13ff8b93fd">
+        <Attribute dwd:design-time-name="5701e6b2-4a9e-4889-9ea4-bf1ee59fabad">
           <AttributeID>ID dane personalne</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="877044b8-728f-4eca-acff-f1e260e25745">
+        <Attribute dwd:design-time-name="3ea52dee-1726-45e4-8aac-3b28523bf3b7">
           <AttributeID>Imię i nazwisko</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c9f36bac-2843-4974-8bba-dcf4ad99706d">
+        <Attribute dwd:design-time-name="5f6b70d1-697a-408c-aaec-4a98018ef695">
           <AttributeID>Wiek</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f26ee0cf-74b0-487e-8a91-2ca9a9ae9f4c">
+        <Attribute dwd:design-time-name="c725cf8c-bd81-4bf4-b6fa-02b7270cfbdc">
           <AttributeID>Płeć</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="885b10bb-f4a1-4a01-a43e-0d17e89a5d5b">
+        <Attribute dwd:design-time-name="2b14a997-5764-4f9c-a2bd-df512c77adaa">
           <AttributeID>Narodowość</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d7da4f49-e909-4968-ab24-214cbc917212">
+        <Attribute dwd:design-time-name="4f04e2fc-10e6-4d4f-978b-98f450a2afe8">
           <AttributeID>Data urodzenia</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="763355c2-7f61-4bb8-8380-82f815fd6c36">
+    <Dimension dwd:design-time-name="34262c7e-fdbb-44f7-8421-959fcd0bbb8f">
       <ID>Branża</ID>
       <Name>Branża</Name>
       <DimensionID>Branża</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b5261f7d-fa69-4e9b-a5da-4852f75b2a4b">
+        <Attribute dwd:design-time-name="ff62218c-5816-411e-854e-e745e1c26898">
           <AttributeID>ID branża</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8b826c12-215f-4e2a-9753-aee935665324">
+        <Attribute dwd:design-time-name="2eb0a626-bbd9-49de-9405-b4ff42147d39">
           <AttributeID>Nazwa przemysłu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="c3627a69-93a5-4bc1-8edf-e76df53a6467">
+    <Dimension dwd:design-time-name="99700247-7baa-42c9-b96b-858be95c4820">
       <ID>Dane Ekonomiczne</ID>
       <Name>Dane Ekonomiczne</Name>
       <DimensionID>Dane Ekonomiczne</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="538c9af1-0a7f-4b0e-8d3e-1a956b824fb8">
+        <Attribute dwd:design-time-name="04c0adf1-8752-4803-88b7-60f7e70422a7">
           <AttributeID>ID dane ekonomiczne</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6ee4bc0d-0ff2-4568-ba32-0f877d8b16df">
+        <Attribute dwd:design-time-name="aae29586-3914-46e1-afe0-50bc19f2783a">
           <AttributeID>GDP</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9d41331a-6c57-494d-a41e-5dc1b6465108">
+        <Attribute dwd:design-time-name="76d62fd6-7d36-4ca6-af69-5f303f99660a">
           <AttributeID>Inlfacja</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="698da52f-33f0-4e02-8909-db3836337d1c">
+        <Attribute dwd:design-time-name="dc43b427-8663-4701-9a54-4aa38a9b3a5b">
           <AttributeID>Długość życia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8129c554-179e-4407-95e6-92a1d7b9693c">
+        <Attribute dwd:design-time-name="5cb56888-9b3c-4ebf-91f6-444ae8288887">
           <AttributeID>Liczba ludności</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="93f491a5-8ad3-45b9-8c52-343c13a70301">
+    <Dimension dwd:design-time-name="57b7e3ee-84df-46ae-bed8-4462ad9ba4f1">
       <ID>Dane Geograficzne</ID>
       <Name>Dane Geograficzne</Name>
       <DimensionID>Dane Geograficzne</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="20d633f5-4f97-4a66-94a3-4889232e8e7b">
+        <Attribute dwd:design-time-name="ba3be0bb-aea2-4c07-925a-3ba3ca5ceed7">
           <AttributeID>ID dane geograficzne</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a90ce736-a098-42cc-9368-9e8e41df4dd0">
+        <Attribute dwd:design-time-name="9e3d8a0e-7ff8-46c1-b69f-09b192e6b409">
           <AttributeID>Państwo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ea53b5fb-a6cb-4365-a412-967a6033e2e2">
+        <Attribute dwd:design-time-name="3961218b-dc00-4477-9f7c-eba404ac8df7">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6dd08163-450b-4dde-b546-e53751c27196">
+        <Attribute dwd:design-time-name="904835c3-8b5d-4a79-8d30-101e8f2363b6">
           <AttributeID>Kontynent</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="3529cbf8-25a9-4175-b906-4514de5ba3b0">
+        <Hierarchy dwd:design-time-name="4967c11a-3ba5-4054-af2a-b0cdc18ac36b">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="919e8579-44f4-4758-8be2-ad5950252331">
+    <MeasureGroup dwd:design-time-name="b2a84b06-0697-47cf-8d9d-5751b9099ee3">
       <ID>Miliarderzy</ID>
       <Name>Miliarderzy</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -137,25 +281,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="0bc51a18-67df-43bb-b5a4-45ceb33ce3f6">
+        <Measure dwd:design-time-name="a3e2550d-e02b-460c-893c-cb3aaaa6be05">
           <ID>Majątek</ID>
           <Name>Majątek</Name>
-          <Source dwd:design-time-name="c24a0a4f-3130-4ea8-8fdb-7f2c2a3b586c">
+          <Source dwd:design-time-name="7cbf12ef-9d9b-4321-ab80-63a8fbf37509">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="87a06a08-2cbd-4ae6-85b5-0bfc188079de">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e06f1968-5cdf-400c-bd4b-c27d98636dd1">
               <TableID>dbo_F_Billionaires</TableID>
               <ColumnID>wealth</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2b903f43-ed0f-47e2-904e-0c409aa15f8a">
+        <Measure dwd:design-time-name="cad3dc69-e0dc-4dd3-9c55-41e11bb7648c">
           <ID>Liczba miliarderów</ID>
           <Name>Liczba miliarderów</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="fad7b56e-a704-4a84-b0b8-a0fad744995f">
+          <Source dwd:design-time-name="f68f1589-59c5-4318-a6b4-1609eb0e4a69">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="d6738f62-6b47-48ee-9318-a15075eb5139">
+            <Source xsi:type="RowBinding" dwd:design-time-name="ba1a3abf-640b-44c3-899f-3b2da0ad8df2">
               <TableID>dbo_F_Billionaires</TableID>
             </Source>
           </Source>
@@ -164,16 +308,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f771ab46-5e6b-4bc0-b12a-77fedcb480a0">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c28b92f7-14b4-4441-9c30-800513d528f8">
           <CubeDimensionID>Dane Personalne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="10b75f2c-9a03-4ede-b23c-7a4ac1af261e">
+            <Attribute dwd:design-time-name="f8566070-c40e-4480-91ff-c085307b6186">
               <AttributeID>ID dane personalne</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="3de36fcb-7ab0-4dd8-a7be-b1d15e6457f4">
+                <KeyColumn dwd:design-time-name="b3de562b-b287-4947-8cb9-8dd46aa26d70">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="05a2b6f5-2dae-41a4-a958-cfac78fefc13">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ebf217d5-87df-4e4f-a98f-ed520028bc6e">
                     <TableID>dbo_F_Billionaires</TableID>
                     <ColumnID>personal_info_id</ColumnID>
                   </Source>
@@ -183,16 +327,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="176b8da1-780f-4374-ab80-27830153d426">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3f4a67e9-ef72-42af-988c-f812a883de51">
           <CubeDimensionID>Branża</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ec45341e-7f30-481b-afb9-df2ece794d82">
+            <Attribute dwd:design-time-name="5aef44e9-48e8-4a51-9a3c-9a5cd26d7a5e">
               <AttributeID>ID branża</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5fce09e8-fd17-4fe3-aaf2-056af877c2dd">
+                <KeyColumn dwd:design-time-name="d3a430bb-e3d2-4460-99e5-6cd392349a4d">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e34bbb08-4369-43b4-ac67-52724627f3f4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d11c2fd-cfe2-4e9d-b7dc-f5aeb12a0292">
                     <TableID>dbo_F_Billionaires</TableID>
                     <ColumnID>industry_id</ColumnID>
                   </Source>
@@ -202,16 +346,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3750db76-fac3-43ca-8457-d92c56745d3c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf52abb1-2488-43f2-9dc6-463a433561cd">
           <CubeDimensionID>Dane Ekonomiczne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="45b2e76d-1cb6-40c1-861b-625071a6d7ed">
+            <Attribute dwd:design-time-name="11ccbaac-67a7-4f00-a314-9a4d31d04457">
               <AttributeID>ID dane ekonomiczne</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="2a2e4805-10a2-464e-9f97-b2b5595930b3">
+                <KeyColumn dwd:design-time-name="b7b04133-0daa-4d7d-8dd3-74d21b7a01be">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b9ae5866-1f07-4070-b622-230406a0bb1a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5b7a80cb-f840-4a03-9cb1-0753355fb5b2">
                     <TableID>dbo_F_Billionaires</TableID>
                     <ColumnID>economic_info_id</ColumnID>
                   </Source>
@@ -221,16 +365,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a5dbdcaa-5ac7-499c-8ad6-e6e37734493d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5d120414-4839-4a59-a473-4d1fa88ccb6b">
           <CubeDimensionID>Dane Geograficzne</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ea0457e2-aabc-4b2f-9f3a-87da2c5de228">
+            <Attribute dwd:design-time-name="514b19b2-72e8-4f47-902d-051b8827a23c">
               <AttributeID>ID dane geograficzne</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9e83df98-998a-4445-842b-d528b52e9dae">
+                <KeyColumn dwd:design-time-name="77f058ad-1971-47ef-89fb-8d6dcce48947">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5f8e42b9-f9d1-4b37-88b9-b7b671bbcd48">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee39f5f6-7e55-46bb-ac5d-d4b1a17f7222">
                     <TableID>dbo_F_Billionaires</TableID>
                     <ColumnID>geography_id</ColumnID>
                   </Source>
@@ -244,7 +388,50 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="317a5382-270c-412f-9de4-5e70cd059d10">
+  <Source dwd:design-time-name="9a3678d1-4dcb-4d6d-9a10-586c91779f45">
     <DataSourceViewID>s28276</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="d9501694-5968-4a92-ac2c-b5d5fb5853cc">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[LiczbaMiliarderowWBrazy] AS 
+SUM(
+    NONEMPTY(
+        [Branża].[Nazwa przemysłu].Members,
+        [Measures].[Liczba miliarderów]
+    )
+); 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[PopularnoscBranzyWRegionach] AS
+SUM(
+    NONEMPTY(
+        [Dane Geograficzne].[Państwo].Members,
+        [Measures].[Liczba miliarderów]
+    )
+); 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[NajwiekszaLiczbaMiliarderowBranzy] AS
+RANK(
+    [Branża].[Nazwa przemysłu].CurrentMember,
+    ORDER(
+        [Branża].[Nazwa przemysłu].Members,
+        [Measures].[Liczba miliarderów],
+        DESC
+    )
+); </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
 </Cube>
