@@ -1,0 +1,250 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e23fc28d-68da-4c6a-835d-454cdabf961b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>s28276</ID>
+  <Name>s28276</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="45347982-c249-4697-9810-441025662827">
+      <ID>Dane Personalne</ID>
+      <Name>Dane Personalne</Name>
+      <DimensionID>Dane Personalne</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d2f5e1a5-5ed5-4906-9367-de13ff8b93fd">
+          <AttributeID>ID dane personalne</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="877044b8-728f-4eca-acff-f1e260e25745">
+          <AttributeID>Imię i nazwisko</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9f36bac-2843-4974-8bba-dcf4ad99706d">
+          <AttributeID>Wiek</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f26ee0cf-74b0-487e-8a91-2ca9a9ae9f4c">
+          <AttributeID>Płeć</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="885b10bb-f4a1-4a01-a43e-0d17e89a5d5b">
+          <AttributeID>Narodowość</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7da4f49-e909-4968-ab24-214cbc917212">
+          <AttributeID>Data urodzenia</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="763355c2-7f61-4bb8-8380-82f815fd6c36">
+      <ID>Branża</ID>
+      <Name>Branża</Name>
+      <DimensionID>Branża</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b5261f7d-fa69-4e9b-a5da-4852f75b2a4b">
+          <AttributeID>ID branża</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b826c12-215f-4e2a-9753-aee935665324">
+          <AttributeID>Nazwa przemysłu</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c3627a69-93a5-4bc1-8edf-e76df53a6467">
+      <ID>Dane Ekonomiczne</ID>
+      <Name>Dane Ekonomiczne</Name>
+      <DimensionID>Dane Ekonomiczne</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="538c9af1-0a7f-4b0e-8d3e-1a956b824fb8">
+          <AttributeID>ID dane ekonomiczne</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ee4bc0d-0ff2-4568-ba32-0f877d8b16df">
+          <AttributeID>GDP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d41331a-6c57-494d-a41e-5dc1b6465108">
+          <AttributeID>Inlfacja</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="698da52f-33f0-4e02-8909-db3836337d1c">
+          <AttributeID>Długość życia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8129c554-179e-4407-95e6-92a1d7b9693c">
+          <AttributeID>Liczba ludności</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="93f491a5-8ad3-45b9-8c52-343c13a70301">
+      <ID>Dane Geograficzne</ID>
+      <Name>Dane Geograficzne</Name>
+      <DimensionID>Dane Geograficzne</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="20d633f5-4f97-4a66-94a3-4889232e8e7b">
+          <AttributeID>ID dane geograficzne</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a90ce736-a098-42cc-9368-9e8e41df4dd0">
+          <AttributeID>Państwo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea53b5fb-a6cb-4365-a412-967a6033e2e2">
+          <AttributeID>Miasto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6dd08163-450b-4dde-b546-e53751c27196">
+          <AttributeID>Kontynent</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3529cbf8-25a9-4175-b906-4514de5ba3b0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="919e8579-44f4-4758-8be2-ad5950252331">
+      <ID>Miliarderzy</ID>
+      <Name>Miliarderzy</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0bc51a18-67df-43bb-b5a4-45ceb33ce3f6">
+          <ID>Majątek</ID>
+          <Name>Majątek</Name>
+          <Source dwd:design-time-name="c24a0a4f-3130-4ea8-8fdb-7f2c2a3b586c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87a06a08-2cbd-4ae6-85b5-0bfc188079de">
+              <TableID>dbo_F_Billionaires</TableID>
+              <ColumnID>wealth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2b903f43-ed0f-47e2-904e-0c409aa15f8a">
+          <ID>Liczba miliarderów</ID>
+          <Name>Liczba miliarderów</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="fad7b56e-a704-4a84-b0b8-a0fad744995f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d6738f62-6b47-48ee-9318-a15075eb5139">
+              <TableID>dbo_F_Billionaires</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f771ab46-5e6b-4bc0-b12a-77fedcb480a0">
+          <CubeDimensionID>Dane Personalne</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="10b75f2c-9a03-4ede-b23c-7a4ac1af261e">
+              <AttributeID>ID dane personalne</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3de36fcb-7ab0-4dd8-a7be-b1d15e6457f4">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="05a2b6f5-2dae-41a4-a958-cfac78fefc13">
+                    <TableID>dbo_F_Billionaires</TableID>
+                    <ColumnID>personal_info_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="176b8da1-780f-4374-ab80-27830153d426">
+          <CubeDimensionID>Branża</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ec45341e-7f30-481b-afb9-df2ece794d82">
+              <AttributeID>ID branża</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5fce09e8-fd17-4fe3-aaf2-056af877c2dd">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e34bbb08-4369-43b4-ac67-52724627f3f4">
+                    <TableID>dbo_F_Billionaires</TableID>
+                    <ColumnID>industry_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3750db76-fac3-43ca-8457-d92c56745d3c">
+          <CubeDimensionID>Dane Ekonomiczne</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="45b2e76d-1cb6-40c1-861b-625071a6d7ed">
+              <AttributeID>ID dane ekonomiczne</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2a2e4805-10a2-464e-9f97-b2b5595930b3">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b9ae5866-1f07-4070-b622-230406a0bb1a">
+                    <TableID>dbo_F_Billionaires</TableID>
+                    <ColumnID>economic_info_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a5dbdcaa-5ac7-499c-8ad6-e6e37734493d">
+          <CubeDimensionID>Dane Geograficzne</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ea0457e2-aabc-4b2f-9f3a-87da2c5de228">
+              <AttributeID>ID dane geograficzne</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9e83df98-998a-4445-842b-d528b52e9dae">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5f8e42b9-f9d1-4b37-88b9-b7b671bbcd48">
+                    <TableID>dbo_F_Billionaires</TableID>
+                    <ColumnID>geography_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="317a5382-270c-412f-9de4-5e70cd059d10">
+    <DataSourceViewID>s28276</DataSourceViewID>
+  </Source>
+</Cube>

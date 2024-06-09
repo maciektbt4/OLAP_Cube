@@ -1,0 +1,338 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="94285efb-6814-4b0f-8062-0a0b0c5e5b7a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>s28276</ID>
+  <Name>s28276</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2851" scrolltop="-4175" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21299" y="20757" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dane ekonomiczne" left="20" top="3352" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3519" height="3876" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000bf0d0000240f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_D_Economic_Info" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dane geograficzne" left="11488" top="3868" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3638" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000360e00001c0b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_D_Geography" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Branża" left="6013" top="0" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1468" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000bc050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_D_Industrie" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dane personalne" left="6012" top="9112" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3003" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000bb0b00001c0b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_D_Personal_Info" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Miliarderzy" left="5939" top="3868" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3149" height="2844" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00004d0c00001c0b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_F_Billionaires" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7114" top="6412" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__perso__7F2BE32F]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7513" y="9112" />
+                    <point x="7513" y="6712" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7114" top="969" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__indus__7E37BEF6]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7513" y="1468" />
+                    <point x="7513" y="3868" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3239" top="4891" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__econo__00200768]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="21" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3539" y="5290" />
+                    <point x="5939" y="5290" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8788" top="4891" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__F_Billion__geogr__01142BA1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="18" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11488" y="5290" />
+                    <point x="9088" y="5290" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-2851</DiagramViewPortLeft>
+            <DiagramViewPortTop>-4175</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>s28276</DataSourceID>
+  <Schema>
+    <xs:schema id="s28276" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="s28276" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="ae67d367-6eda-4999-aa18-6ff73050dfd8">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_D_Economic_Info" msprop:design-time-name="8e5a9609-826a-44b0-a7bf-d0f5cd0fe7ce" msprop:FriendlyName="Dane ekonomiczne" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="D_Economic_Info">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="economic_info_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="economic_info_id" msprop:DbColumnName="economic_info_id" msprop:design-time-name="60d1fea9-ac40-4216-ba8d-c02c40e979a9" type="xs:int" />
+                  <xs:element name="gdp_country" msprop:FriendlyName="gdp_country" msprop:DbColumnName="gdp_country" msprop:design-time-name="0860e6c3-e5ed-4a66-98d3-5ecf016f05fe" type="xs:long" minOccurs="0" />
+                  <xs:element name="cpi_country" msprop:FriendlyName="cpi_country" msprop:DbColumnName="cpi_country" msprop:design-time-name="0bfcc08f-3b95-4253-9874-2c20155740f3" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="g_tertiary_ed_enroll" msprop:FriendlyName="g_tertiary_ed_enroll" msprop:DbColumnName="g_tertiary_ed_enroll" msprop:design-time-name="7acdecd8-5643-4f1e-8c74-024d0431f84b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="g_primary_ed_enroll" msprop:FriendlyName="g_primary_ed_enroll" msprop:DbColumnName="g_primary_ed_enroll" msprop:design-time-name="15367fa1-921f-47c3-a2c5-b87a4f8890fb" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="life_expectancy" msprop:FriendlyName="life_expectancy" msprop:DbColumnName="life_expectancy" msprop:design-time-name="656de8ab-dd64-43c1-90f7-3d7ed3a5fde8" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tax_revenue" msprop:FriendlyName="tax_revenue" msprop:DbColumnName="tax_revenue" msprop:design-time-name="9c0fc930-77f3-403e-9b3e-ad704ce8d74c" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="tax_rate" msprop:FriendlyName="tax_rate" msprop:DbColumnName="tax_rate" msprop:design-time-name="dc7e2eaa-29a5-4f65-a371-8de556cb26d8" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="country_pop" msprop:FriendlyName="country_pop" msprop:DbColumnName="country_pop" msprop:design-time-name="e21e3133-42e0-4bbb-a6a6-b34eb4e4016d" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_Geography" msprop:design-time-name="82c87cb3-d213-4e17-b026-e1d9fe634817" msprop:FriendlyName="Dane geograficzne" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="D_Geography">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="geography_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="geography_id" msprop:DbColumnName="geography_id" msprop:design-time-name="4cb1bffd-5f66-4bc8-a8c5-ec02a850700b" type="xs:int" />
+                  <xs:element name="country_of_residence" msprop:FriendlyName="country_of_residence" msprop:DbColumnName="country_of_residence" msprop:design-time-name="fa0fc7e5-ada4-4879-9b6d-71a8d969b9c4" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="city_of_residence" msprop:FriendlyName="city_of_residence" msprop:DbColumnName="city_of_residence" msprop:design-time-name="41fef56a-2c22-4cff-85eb-579265109a0a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="country_lat" msprop:FriendlyName="country_lat" msprop:DbColumnName="country_lat" msprop:design-time-name="386a480d-ab90-4d92-b384-6b7015d3b0ab" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="country_long" msprop:FriendlyName="country_long" msprop:DbColumnName="country_long" msprop:design-time-name="31b2250a-bfbb-40a9-8019-e43b60823d2a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="continent" msprop:FriendlyName="continent" msprop:DbColumnName="continent" msprop:design-time-name="be20b879-660d-428f-91d5-53c17dbf5e33" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_Industrie" msprop:design-time-name="7a329b3c-b1b2-4e42-a63a-c1293ea8ecdd" msprop:FriendlyName="Branża" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="D_Industrie">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="industry_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="industry_id" msprop:DbColumnName="industry_id" msprop:design-time-name="b85b2e1d-db32-4196-b417-f87a75b0aebe" type="xs:int" />
+                  <xs:element name="industry_name" msprop:FriendlyName="industry_name" msprop:DbColumnName="industry_name" msprop:design-time-name="53a7e560-6906-4c08-a351-dc959616142e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_Personal_Info" msprop:design-time-name="d88bef48-d5da-4e19-b343-376146d1f47d" msprop:FriendlyName="Dane personalne" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="D_Personal_Info">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="personal_info_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="personal_info_id" msprop:DbColumnName="personal_info_id" msprop:design-time-name="476d9ec7-38db-4ecb-8133-448f8cce0790" type="xs:int" />
+                  <xs:element name="full_name" msprop:FriendlyName="full_name" msprop:DbColumnName="full_name" msprop:design-time-name="6b4c28fe-ba36-4acc-8f9e-73a6c0d76ce6" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="age" msprop:FriendlyName="age" msprop:DbColumnName="age" msprop:design-time-name="b2b3b015-9135-4504-b5dd-437a777e3122" type="xs:int" minOccurs="0" />
+                  <xs:element name="gender" msprop:FriendlyName="gender" msprop:DbColumnName="gender" msprop:design-time-name="47334e9e-b36b-4b0b-8a34-178685cafa6c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="citizenship" msprop:FriendlyName="citizenship" msprop:DbColumnName="citizenship" msprop:design-time-name="33d45aee-f9a9-4044-b0b5-1dd874d78163" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="birth_date" msprop:FriendlyName="birth_date" msprop:DbColumnName="birth_date" msprop:design-time-name="7570d728-7675-4b60-93d8-65944a06c0e1" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_F_Billionaires" msprop:design-time-name="0b3ea9d9-b8f1-4880-bbe3-19716f798c78" msprop:FriendlyName="Miliarderzy" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="F_Billionaires">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="position_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="position_id" msprop:DbColumnName="position_id" msprop:design-time-name="edc98752-98bc-47a9-aec0-942c7b5b8e97" type="xs:int" />
+                  <xs:element name="industry_id" msprop:FriendlyName="industry_id" msprop:DbColumnName="industry_id" msprop:design-time-name="835ef191-9f59-4980-84df-ef8c244d4c7b" type="xs:int" minOccurs="0" />
+                  <xs:element name="personal_info_id" msprop:FriendlyName="personal_info_id" msprop:DbColumnName="personal_info_id" msprop:design-time-name="4f86330b-4091-4864-b601-72160ffda155" type="xs:int" minOccurs="0" />
+                  <xs:element name="economic_info_id" msprop:FriendlyName="economic_info_id" msprop:DbColumnName="economic_info_id" msprop:design-time-name="e1c03b2d-a1bb-43fc-8e2c-065943123a26" type="xs:int" minOccurs="0" />
+                  <xs:element name="geography_id" msprop:FriendlyName="geography_id" msprop:DbColumnName="geography_id" msprop:design-time-name="fab28ebe-f593-403b-b05d-5096a8b1d473" type="xs:int" minOccurs="0" />
+                  <xs:element name="wealth" msprop:FriendlyName="wealth" msprop:DbColumnName="wealth" msprop:design-time-name="5cdf9fdb-38b5-4eec-83ba-a687912b482a" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_Economic_Info" />
+          <xs:field xpath="economic_info_id" />
+        </xs:unique>
+        <xs:unique name="dbo_D_Geography_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_Geography" />
+          <xs:field xpath="geography_id" />
+        </xs:unique>
+        <xs:unique name="dbo_D_Industrie_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_Industrie" />
+          <xs:field xpath="industry_id" />
+        </xs:unique>
+        <xs:unique name="dbo_D_Personal_Info_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_Personal_Info" />
+          <xs:field xpath="personal_info_id" />
+        </xs:unique>
+        <xs:unique name="dbo_F_Billionaires_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_F_Billionaires" />
+          <xs:field xpath="position_id" />
+        </xs:unique>
+        <xs:keyref name="FK__F_Billion__geogr__01142BA1" refer="dbo_D_Geography_Constraint1">
+          <xs:selector xpath=".//dbo_F_Billionaires" />
+          <xs:field xpath="geography_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__F_Billion__econo__00200768" refer="Constraint1">
+          <xs:selector xpath=".//dbo_F_Billionaires" />
+          <xs:field xpath="economic_info_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__F_Billion__indus__7E37BEF6" refer="dbo_D_Industrie_Constraint1">
+          <xs:selector xpath=".//dbo_F_Billionaires" />
+          <xs:field xpath="industry_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__F_Billion__perso__7F2BE32F" refer="dbo_D_Personal_Info_Constraint1">
+          <xs:selector xpath=".//dbo_F_Billionaires" />
+          <xs:field xpath="personal_info_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <s28276 xmlns="" />
+  </Schema>
+</DataSourceView>
